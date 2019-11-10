@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="br" dir="ltr">
+  <head>
+  	<title>Corrida de carrinhos de Rolimã</title>
+    <meta charset="utf-8">
+     <link rel="stylesheet" type="text/css" href="estilos_corrida.css" media="all" />
+      <script src="js/corrida_ordenacao.js"></script>
+   
+  </head>
+  <body>
+  	<header><h1>Corrida de Carrinhos de Rolimã<h1>
+  		<p>Exercício 01</p></header>
+  		<br><br>
+
+  		<form name="dados" method="post">
+    <div class="entrada_nome">
+        <label for="nome" class="nom">Nome:</label>
+        <input type="text" id="nome" class="nome" />
+    </div>
+    <br>
+    <div class="entrada_tempo">
+         <label for="tempo" class="temp">Tempo:</label>
+          <input type="number" class="tempo" id="tempo" />
+    </div>
+    <br><br>
+    <div class="entrada_botao">
+        <button type="button" id="adicionar" class="botao_add" onmouseover="mudaCor(this)" onmouseleave="mudaCor_volta(this)" onclick="add()">Adicionar</button>
+    </div>
+   
+
+<br>
+
+ <div class="tabela_participantes">
+        <table id="tabela">
+          <thead class="thead">
+            <tr>
+              <th>Largada</th>
+              <th>Nome</th>
+              <th>Tempo</th>
+            </tr>
+          </thead>
+          <tbody class="tbody"></tbody>
+        </table>
+      </div>
+<br>
+
+ <div class="saida_botao">
+        <button type="button" id="resultado" class="botao_resul" onmouseover="mudaCor(this)" onmouseleave="mudaCor_volta(this)"  onclick="ordenacao_vencedores()">Resultado</button>
+    </div>
+<br>
+
+ <div class="tabela_resultados">
+        <table id="tabela_resul">
+          <thead class="thead">
+            <tr>
+              <th>Posição Final</th>
+              <th>Largada</th>
+              <th>Nome</th>
+              <th>Tempo</th>
+              <th>Resultado</th>
+            </tr>
+          </thead>
+          <tbody class="tbody"></tbody>
+        </table>
+      </div>
+
+      <br>
+
+       <div class="saida_botao">
+        <button type="submt" class="botao_resul" onmouseover="mudaCor(this)" onmouseleave="mudaCor_volta(this)" >Resetar</button>
+    </div>
+
+ </form>
+  </body>
+</html>
+

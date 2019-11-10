@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="br" dir="ltr">
+  <head>
+  	<title>Calcular IMC</title>
+    <meta charset="utf-8">
+     <link rel="stylesheet" type="text/css" href="estilos_imc.css" media="all" />
+      <script src="js/imc_calculo.js"></script>
+   
+  </head>
+  <body>
+  	<header><h1>Calcular IMC<h1>
+  		<p>Exercício 02</p></header>
+  		<br><br>
+
+  		<form name="dados" method="post">
+    <div class="entrada_peso">
+        <label for="peso" class="pes">Peso:</label>
+        <input type="number" step="any"  lang="en" id="peso" class="peso"  />
+    </div>
+    <br>
+    <div class="entrada_altura">
+         <label for="altura" class="alt">Altura:</label>
+          <input type="number" class="altura" id="altura" />
+    </div>
+    <br>
+     <div class="entrada_resultado">
+          <label for="res" class="result">Resultado:</label>
+          <input type="text" id="res" class="resultado" />
+        </div>
+        <br>
+         <div class="entrada_intervalo">
+          <label for="res" class="result">Intervalo:</label>
+          <input type="text" id="inter" class="intervalo" />
+        </div>
+
+<br><br>
+ <div class="saida_botao">
+        <button type="button" id="resultado" class="botao_resul" onmouseover="mudaCor(this)" onmouseleave="mudaCor_volta(this)"  onclick="calculo()">Resultado</button>
+    </div1>
+
+
+      <br><br>
+
+       <div class="saida_botao">
+        <button type="submt" class="botao_resul" onmouseover="mudaCor(this)" onmouseleave="mudaCor_volta(this)" >Resetar</button>
+    </div>
+
+ </form>
+  </body>
+</html>
+

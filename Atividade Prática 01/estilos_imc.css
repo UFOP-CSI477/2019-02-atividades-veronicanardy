@@ -1,0 +1,99 @@
+header{
+	 color: #DB7093;
+	 background: #FFFAF0;
+	 border: thin solid; 
+ 	 padding: 10px;
+	 text-align: center;
+	 height: 100px;
+	 width:  300px;
+	 margin: 0 auto;
+}
+
+h1{
+	 font-family: Didot, serif  ;
+	 font-style: oblique;
+	 color: #B03060;
+	 font-size: 25px;
+
+}
+
+p{
+	font-family: Arial Narrow, sans-serif  ;
+	color:  #DB7093;
+  	font-size: 15px;
+	text-align: center;
+
+}
+
+*{
+	background: #FFFAF0;
+	font-family: Courier, monospace  ;
+	
+}
+
+.entrada_peso{
+	margin: 0 auto;
+    width: 200px;
+}
+
+.entrada_altura{
+	margin: 0 auto;
+    width: 200px;
+
+}
+
+.entrada_resultado{
+	margin: 0 auto;
+    width: 200px;
+}
+
+.entrada_intervalo{
+	margin: 0 auto;
+    width: 200px;
+}
+
+.resultado{
+	background-color: white;
+}
+
+.intervalo{
+	background-color: white;
+	width: 300px;
+}
+
+
+.peso{
+	background-color: white;
+}
+
+.altura{
+	background-color: white;
+}
+
+input, textarea {
+    font: 1em sans-serif;
+    width: 200px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid #999;
+}
+
+
+
+.botao_resul{
+
+font-family: Impact, fantasy    ;
+	background-color: #B03060;
+	font-size: 16px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	color: white;
+	border: 1px solid gray;
+	border-radius: 5px;
+
+}
+
+.saida_botao {
+	text-align: center;
+	margin: 0 auto; 
+}
