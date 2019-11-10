@@ -1,0 +1,106 @@
+header{
+	 color: #0000FF;
+	 background: #E6E6FA;
+	 border:  groove; 
+	 border-width: 10px;
+ 	 padding: 10px;
+	 text-align: center;
+	 height: 150px;
+	 width:  430px;
+	 margin: 0 auto;
+}
+
+h1{
+	 font-family: Comic Sans MS, Comic Sans, cursive   ;
+	 font-style: oblique;
+	 color: #0000FF;
+	 font-size: 25px;
+  border-style: dotted;
+  border-color: #0000FF;
+  background: #E6E6FA;
+
+
+
+}
+
+p{
+	font-family: Arial Narrow, sans-serif  ;
+	color: #191970;
+  	font-size: 15px;
+	text-align: center;
+background: #E6E6FA;
+}
+
+*{
+	background: #FFFFE0;
+}
+
+.primeira{
+font-family: Arial Narrow, sans-serif    ;
+	 color: #7D26CD;
+	 font-size: 25px;
+ border:  groove; 
+	 border-width: 5px;
+  border-color: #7D26CD;
+  background: #EED2EE;
+	 width:  700px;
+   text-align: center;
+	 margin: 0 auto;
+}
+
+.segunda{
+	font-family: Arial Narrow, sans-serif    ;
+	 color: #FF1493;
+	 font-size: 25px;
+ border:  groove; 
+	 border-width: 5px;
+  border-color: #FF1493;
+  background: #FFE4E1;
+	 width:  700px;
+   text-align: center;
+	 margin: 0 auto;
+}
+
+.terceira{
+	font-family: Arial Narrow, sans-serif    ;
+	 color: #FF0000;
+	 font-size: 25px;
+ border:  groove; 
+	 border-width: 5px;
+  border-color: #FF0000;
+  background: #FFDAB9;
+	 width:  700px;
+   text-align: center;
+	 margin: 0 auto;
+}
+
+.quarta{
+font-family: Arial Narrow, sans-serif    ;
+	 color: #FFA500;
+	 font-size: 25px;
+ border:  groove; 
+	 border-width: 5px;
+  border-color: #FFA500;
+  background: #FFEFD5;
+	 width:  700px;
+   text-align: center;
+	 margin: 0 auto;
+}
+
+.quinta{
+font-family: Arial Narrow, sans-serif    ;
+	 color: #7FFF00;
+	 font-size: 25px;
+ border:  groove; 
+	 border-width: 5px;
+  border-color: #7FFF00;
+  background: #F0FFF0;
+	 width:  700px;
+   text-align: center;
+	 margin: 0 auto;
+}
+
+.ajuste_tam{
+	width:  150px;
+	height: 150px;
+}
